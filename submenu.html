@@ -5,8 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        .menu{
+            list-style:none ;
+            float: left;
+            padding: 0px 20px 0px 5px;
+            line-height: 1.5;
+            font-family: Helvetica;
+            display: inline;
+        }
 
+    .menu li{
+        position: relative;
+        float: left;
+    }
 
+    .menu li ul{
+        position: absolute;
+        top: 25px;
+        background-color: #fff;
+        display: none;
+    }
+
+    .menu li a{
+        color: #333;
+        text-decoration: none;
+        padding: 5px 30px;
+        display: block;
+    }
     </style>
 </head>
 <body>
@@ -15,24 +40,16 @@
             <li> <a href="#">Home</a></li>
             <li> <a href="#">Sobre</a></li>
             <li> <a href="#">O que fazemos</a></li>
-            <ul>
-                <li><a href="#"></a>Web Design</li>
-                <li><a href="#"></a>SEO</li>
-                <li><a href="#"></a>Design</li>
-            </ul>
+                 <ul>
+                     <li><a href="#"></a>Web Design</li>
+                     <li><a href="#"></a>SEO</li>
+                     <li><a href="#"></a>Design</li>
+                 </ul>
             <ul>
                  <li><a href="#"></a>Links</li>
-                 <li> <a href="#"></a>contato</li>
-
-
+                 <li> <a href="#"></a>contatos</li>
             </ul>
-
-
-
         </ul>
-
-
     </nav>
-    
 </body>
 </html>
